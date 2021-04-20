@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,.5);
+}
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: black;
+  font-size: 38px;
+}
+.header-title:hover {
+  color: black;
+}
+.header-amount {
+  color: black;
+}
+.header-amount:hover {
+  color: black;
+}
+.header-amount i {
+  color: slateblue;
+  margin-right: 10px;
+  font-size: large;
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    font-size: 30px;
+  }
+}
